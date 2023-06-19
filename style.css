@@ -132,6 +132,6 @@ footer a{
 
 /* '.sidebar nav ul li a' is a descendant combinator with pseudo-class :hover */
 .sidebar nav ul li a {
-    display: border-block;  /* attribute selector */
+    display: inline-block;  /* attribute selector */
     padding: 5px 10px;  /* padding for box model */
 }
