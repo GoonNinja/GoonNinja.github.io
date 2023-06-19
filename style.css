@@ -38,8 +38,8 @@ body {
     max-width: 1200px;
     margin: 0 auto;  /* margin for box model */
     padding: 1em;  /* padding for box model */
-    background: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* box shadow for creative element */
+    background: rgb(207, 201, 201);
+    box-shadow: 0 2px 50px rgba(0, 0, 0, 1.5);  /* box shadow for creative element */
 }
 
 header, footer {
@@ -50,21 +50,21 @@ header, footer {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #099977);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;  /* animation for creative element */
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 1.5); 
 }
 
 /* '.header h1' is a child combinator selector */
 header h1 {
     font-family: 'Poiret One', cursive;  /* custom web font */
     font-size: 5em;
-    color: #f5f5f5;
+    color: #868822;
     animation: fadeIn 2s ease-in-out;  /* animation for creative element */
 }
 
-/* '+ footer' is a direct sibling combinator */
-header h2 + footer {
-    color: #ccc;
-    font-size: 1.2em;
-    font-weight: normal;
+header h2 {
+    color: #b644c5;
+    font-size: 1.6em;
+    font-weight: bold;
 }
 
 /* 'div' is an ID selector */
@@ -73,13 +73,14 @@ header h2 + footer {
 }
 
 h3 {
-    font-size: 1.5em;
-    color: #007BFF;
+    font-size: 1.7em;
+    color: #8c28ce;
 }
 
 p {
     margin-bottom: 1em;  /* margin for box model */
-    color: #000;
+    color: #615b0c;
+	font-size: 1.3em;
 }
 
 /* 'a' is a type selector with pseudo-class :hover */
@@ -87,6 +88,7 @@ a {
     color: #050505;
     text-decoration: none;
     transition: color 0.3s;
+	font-weight: bold;
 }
 
 a:hover {
@@ -97,8 +99,12 @@ a:hover {
 footer {
     text-align: center;
     padding: 1em 0;  /* padding for box model */
-    border-top: 1px solid #e6e6e6;
     color: #777;
+}
+
+footer a{
+	padding: 4em;
+	font-size: 1.5em;
 }
 
 /* '.sidebar' is a class selector */
