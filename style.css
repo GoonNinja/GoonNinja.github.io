@@ -38,7 +38,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;  /* margin for box model */
     padding: 1em;  /* padding for box model */
-    background: rgb(207, 201, 201);
+    background: #fff;
     box-shadow: 0 2px 50px rgba(0, 0, 0, 1.5);  /* box shadow for creative element */
 }
 
